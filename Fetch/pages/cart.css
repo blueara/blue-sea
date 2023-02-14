@@ -1,0 +1,60 @@
+
+/* th= thead, td, tr, tbody */
+.cart-background{
+    width: 100%;
+    max-width: 900px;
+    background-color: skyblue;
+    padding: 30px;
+}
+
+.cart-table{
+    width: 100%;
+    max-width: 800px;
+    margin: 0;
+    background: white;
+    border-bottom: 1px solid #c2d3de;
+    border-radius: 10px;
+}
+.cart-table td{
+    padding: 15px;
+    border-bottom: 1px solid #c2d3de;
+}
+.cell-long{
+    width: 700px;
+}
+.button{
+    border: 0px;
+    width: 200px;
+    height: 40px;
+    background-color: blue;
+    float: right;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    line-height: 10px;
+    padding: 15px;
+    cursor: pointer;
+}
+/* hover - focus - active 순서 중요함 ho f a  */
+.button:hover{
+    background-color: red;
+}
+.button:active{
+    background-color: green;
+}
+.input{
+    font-size: 20px;
+}
+.input:focus{
+    border: 2px solid red;
+
+}
+.custom-link{
+    text-decoration: none;
+}
+.custom-link:link{
+    color: #3e3e3e;
+}
+.custom-link:visited{
+    color: rgba(255,169,154);
+}

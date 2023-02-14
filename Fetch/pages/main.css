@@ -1,0 +1,25 @@
+
+.본문{
+    width: 80%;
+    height: 200px;
+    background: #eee;
+    float: left;
+}
+.이미지{
+    width: 20%;
+    height: 200px;
+    background: #ff2;    
+    float: right;
+    object-fit: cover;
+}
+.프로필사진{
+    width: 50px;    
+    display: block;
+    float: left;
+}
+.이름날짜{
+    
+    float:left;
+    
+}
+

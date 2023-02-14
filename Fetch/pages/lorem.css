@@ -1,0 +1,54 @@
+@font-face {
+    font-family: '내폰트';
+    src: url(font/NanumSquareR.woff);
+}
+
+@font-face {
+    font-family: '내폰트';
+    font-weight: 800;
+    src: url(font/NanumSquareR.woff);
+}
+
+div,input, textarea{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    font-family: ''
+}
+.black-background{
+    background-color: black;
+    padding: 30px;
+}
+.main-background{
+    background-color: white;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+}
+.w-100{
+    width: 100%;
+    padding: 10px;
+}
+.w-50{
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.form-input{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+.send{
+    display: block;
+    padding: 10px;
+    margin: auto;
+    float: right;
+}

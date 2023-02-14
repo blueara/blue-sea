@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" >
+    <title>Kollus Player V3</title>
+</head>
+<body>
+    <style>
+        body {
+            background: black;
+            height: 6000px;
+        }
+        div {
+            margin-top: 1000px;
+            color: white;
+            text-align: center;
+            opacity: 0;
+            transition: all 0.5s
+        }
+    </style>
+
+   <div><h1>야 호 는 야</h1></div>
+   <div><h1>부연설명 ani nsakan</h1></div>
+   <div><h1> sosite chargeport o nekisimasu</h1></div>
+   <script>
+    let observer = new IntersectionObserver((e)=>{
+        
+        e.forEach((박스)=>{
+            if(박스.isIntersecting){
+            박스.target.style.opacity = 1;
+            } else {
+                박스.target.style.opacity = 0;
+            }
+        })
+    })
+
+    let div = document.querySelectorAll('div')
+
+    observer.observe(div[0])
+    observer.observe(div[1])
+    observer.observe(div[2])
+    observer.observe(div[3])
+
+
+   </script>
+  
+  
+</body>
+
+
+
+</html>
